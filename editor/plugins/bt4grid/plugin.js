@@ -118,7 +118,7 @@ CKEDITOR.plugins.add( 'bt4grid', {
 	                var content = '';
 	         		for (var i = 1; i <= colCount; i++) {
 	               		content = content + '<div class="col-12 col-md-' + 12/colCount + '">' +
-		                                   '    Col ' + i + ' контент' +
+		                                   '    <p>Col ' + i + ' контент</p>' +
 		                                   '</div>';
 	             	}
 	                if ( colCount != '0' ) {
